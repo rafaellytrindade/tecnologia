@@ -1,6 +1,5 @@
 body{
     background-color: #f3e7f7;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -8,6 +7,7 @@ H1{
     font-weight: 400;
     text-align: center;
     padding:1em;
+    text-transform: uppercase;
     
 }
 .cards_container{
@@ -18,8 +18,8 @@ H1{
 }
 
 .card{
-    background-color: #1B4159;
-    color: #731D1D;
+    background-color:rgb(138, 39, 39);
+    color: #ffffff;
     padding:1em ;
     box-sizing: border-box;
     margin-bottom: 16px;
@@ -39,5 +39,9 @@ H1{
     .cards_container{
         flex-direction: column;
         align-items: center;
+    }
+
+    h1{
+        height: 80%;
     }
 }
